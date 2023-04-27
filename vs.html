@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+   <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Data Solutions</title>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+        integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="desktop-nav container">
+            <div class="left">
+                <a href="/">
+                    <div class="p-0">
+          <b style="font-size: large;"> <h4>Big Data Solutions<h1></b>
+                    </div>
+                </a>
+            </div>
+            <div class="right">
+                <nav>
+                    <ul>
+                        <a href="blogs.html" class="">
+                            <li>Blog</li>
+                        </a>
+                        <div class="dropdown">
+                            <li>Our Services
+                                <div class="icon-container">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5.29289 7.29289C5.68342 6.90237 6.31658 6.90237 6.70711 7.29289L10 10.5858L13.2929 7.29289C13.6834 6.90237 14.3166 6.90237 14.7071 7.29289C15.0976 7.68342 15.0976 8.31658 14.7071 8.70711L10.7071 12.7071C10.3166 13.0976 9.68342 13.0976 9.29289 12.7071L5.29289 8.70711C4.90237 8.31658 4.90237 7.68342 5.29289 7.29289Z"
+                                            fill="#4A5568" />
+                                    </svg>
+                                </div>
+                            </li>
+                            <div class="dropdown-content">
+                                <div class="left">
+                                    <ul>
+                                        <div class="title">Website Development</div>
+                                        <a href="#">
+                                            <li>Website Development</li>
+                                        </a>
+                                        <a href="#">
+                                            <li>Ecommerce Development</li>
+                                        </a>
+                                    </ul>
+                                    <ul>
+                                        <div class="title">Mobile App Development</div>
+                                        <a href="#">
+                                            <li>Native Android Applications</li>
+                                        </a>
+                                        <a href="#">
+                                            <li>Progressive Web Apps</li>
+                                    </ul>
+                                    <ul>
+                                        <div class="title">UI/UX</div>
+                                        <a href="#">
+                                            <li>Website UI UX</li>
+                                        </a>
+                                        <a href="#">
+                                            <li>Mobile App UI UX</li>
+                                        </a>
+                                    </ul>
+                                    <ul>
+                                        <div class="title">Big Data Solutions</div>
+                                        <a href="#">
+                                            <li>Guide</li>
+                                        </a>
+                                        <a href="#">
+                                            <li>Tools</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="about.html" class="">
+                            <li>About Us</li>
+                        </a>
+                        <div class="dropdown">
+                            <li>Contact Us
+                                <div class="icon-container">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5.29289 7.29289C5.68342 6.90237 6.31658 6.90237 6.70711 7.29289L10 10.5858L13.2929 7.29289C13.6834 6.90237 14.3166 6.90237 14.7071 7.29289C15.0976 7.68342 15.0976 8.31658 14.7071 8.70711L10.7071 12.7071C10.3166 13.0976 9.68342 13.0976 9.29289 12.7071L5.29289 8.70711C4.90237 8.31658 4.90237 7.68342 5.29289 7.29289Z"
+                                            fill="#4A5568" />
+                                    </svg>
+                                </div>
+                            </li>
+                        <div class="dropdown">
+                            <div class="left" style=" width: fit-content; direction:inherit;">
+                                <ul>
+                                    <!-- <div class="title">E-mail Us</div> -->
+                                    <a href="mailto:gauravtsm@gmail.com?subject=Greetings to Devloper">
+                                        Email us  &nbsp; &nbsp;</a>  
+                                        <!-- <li>Website Development</li> -->
+                                    </a> 
+                                    <a class="nav-link" href="https://wa.me/919170884817?text=Hi" rel="nofollow" target="_blank">
+                                        Whatsapp us
+                                        <!-- <li>Ecommerce Development</li> -->
+                                    </a>
+                                </ul>
+                                </div></div></div></ul>
+                     
+                </nav>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <div class="left">
+                <a href="/">
+                    <div class="p-10">
+          <b style="font-size: large;">Big Data Solutions</b>
+                    </div>
+                </a>
+            </div>
+            <div class="right">
+                <svg>
+                    <defs>
+                        <filter id="gooeyness">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur" />
+                            <feColorMatrix in="blur" mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness" />
+                            <feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
+                        </filter>
+                    </defs>
+                </svg>
+                <div class="plates ">
+                    <div class="plate plate2 ">
+                        <svg class="burger " version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                            <path class="line line1"
+                                d="M 50,65 H 70 C 70,65 75,65.198488 75,70.762712 C 75,73.779026 74.368822,78.389831 66.525424,78.389831 C 22.092231,78.389831 -18.644068,-30.508475 -18.644068,-30.508475" />
+                            <path class="line line2"
+                                d="M 50,35 H 70 C 70,35 81.355932,35.300135 81.355932,25.635593 C 81.355932,20.906215 78.841706,14.830508 72.881356,14.830508 C 35.648232,14.830508 -30.508475,84.322034 -30.508475,84.322034" />
+                            <path class="line line3"
+                                d="M 50,50 H 30 C 30,50 12.288136,47.749959 12.288136,60.169492 C 12.288136,67.738339 16.712974,73.305085 40.677966,73.305085 C 73.791674,73.305085 108.47458,-19.915254 108.47458,-19.915254" />
+                            <path class="line line4"
+                                d="M 50,50 H 70 C 70,50 81.779661,50.277128 81.779661,36.607372 C 81.779661,28.952694 77.941689,25 69.067797,25 C 39.95532,25 -16.949153,119.91525 -16.949153,119.91525" />
+                            <path class="line line5"
+                                d="M 50,65 H 30 C 30,65 17.79661,64.618439 17.79661,74.152543 C 17.79661,80.667556 25.093813,81.355932 38.559322,81.355932 C 89.504001,81.355932 135.59322,-21.186441 135.59322,-21.186441" />
+                            <path class="line line6"
+                                d="M 50,35 H 30 C 30,35 16.525424,35.528154 16.525424,24.152542 C 16.525424,17.535987 22.597755,13.559322 39.40678,13.559322 C 80.617882,13.559322 94.067797,111.01695 94.067797,111.01695" />
+                            <path class="pulse-">
+                        </svg>
+                        <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                            <path class="line" d="M 34,32 L 66,68" />
+                            <path class="line" d="M 66,32 L 34,68" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="mobile-nav-container">
+                    <nav>
+                        <ul>
+                            <a href="blogs.html" class="active">
+                                <li>Blog</li>
+                            </a>
+                            <div class="mobile-dropdown">
+                                <li>Services
+                                    <div class="icon-container">
+                                        <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M5.29289 7.29289C5.68342 6.90237 6.31658 6.90237 6.70711 7.29289L10 10.5858L13.2929 7.29289C13.6834 6.90237 14.3166 6.90237 14.7071 7.29289C15.0976 7.68342 15.0976 8.31658 14.7071 8.70711L10.7071 12.7071C10.3166 13.0976 9.68342 13.0976 9.29289 12.7071L5.29289 8.70711C4.90237 8.31658 4.90237 7.68342 5.29289 7.29289Z"
+                                                fill="#4A5568" />
+                                        </svg>
+                                    </div>
+                                </li>
+                                <div class="mobile-dropdown-content">
+                                    <div class="left">
+                                        <ul>
+                                            <a href="#">
+                                                <li class="title">Web Development</li>
+                                            </a>
+                                            <a href="#">
+                                                <li class="title">App Development</li>
+                                            </a>
+                                            <a href="#">
+                                                <li class="title">UI/UX</li>
+                                            </a>
+                                            <a href="#">
+                                                <li class="title">Big Data Solutions</li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="about.html" class="">
+                                <li>About Us</li>
+                            </a>
+                            <div class="mobile-dropdown">
+                                <li>Contact Us
+                                    <div class="icon-container">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M5.29289 7.29289C5.68342 6.90237 6.31658 6.90237 6.70711 7.29289L10 10.5858L13.2929 7.29289C13.6834 6.90237 14.3166 6.90237 14.7071 7.29289C15.0976 7.68342 15.0976 8.31658 14.7071 8.70711L10.7071 12.7071C10.3166 13.0976 9.68342 13.0976 9.29289 12.7071L5.29289 8.70711C4.90237 8.31658 4.90237 7.68342 5.29289 7.29289Z"
+                                                fill="#4A5568" />
+                                        </svg>
+                                    </div>
+                                </li>
+                            <div class="mobile-dropdown-content">
+                                <div class="left" style=" width: fit-content; direction:inherit;">
+                                    <ul>
+                                        <!-- <div class="title">E-mail Us</div> -->
+                                        <a href="mailto:gauravtsm@gmail.com?subject=Greetings to Devloper">
+                                    Email us  &nbsp; &nbsp;</a>  
+                                            <!-- <li>Website Development</li> -->
+                                        </a> 
+                                        <a class="nav-link" href="https://wa.me/919170884817?text=Hi" rel="nofollow" target="_blank">
+                                           Whatsapp us
+                                            <!-- <li>Ecommerce Development</li> -->
+                                        </a>
+                                    </ul>
+                                    </div></div>
+                            <!-- <a href="https://convertron.app" class="">
+                                <li>Convert your website into an App</li>
+                            </a>
+                            <a href="https://metalmarket.app/" class="">
+                                <li>Metal Market App</li>
+                            </a> -->
+    <br>
+                            <div class="social-list">
+                                <a href="https://www.facebook.com/">
+                                    <div class="icon-container">
+                                        <svg class="icon" width="169" height="169" viewBox="0 0 169 169" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M165.659 84.0715C165.659 39.0801 129.206 2.62726 84.2145 2.62726C39.2231 2.62726 2.77026 39.0801 2.77026 84.0715C2.77026 124.721 32.5532 158.416 71.4888 164.53V107.615H50.7994V84.0715H71.4888V66.1275C71.4888 45.7171 83.6398 34.443 102.25 34.443C111.163 34.443 120.483 36.0325 120.483 36.0325V56.0652H110.211C100.096 56.0652 96.9401 62.3442 96.9401 68.7842V84.0715H119.528L115.915 107.615H96.9401V164.53C135.876 158.416 165.659 124.721 165.659 84.0715Z"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="https://www.instagram.com/">
+                                    <div class="icon-container">
+                                        <svg width="169" height="169" viewBox="0 0 169 169" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M84.2186 46.305C63.3321 46.305 46.485 63.1521 46.485 84.0386C46.485 104.925 63.3321 121.772 84.2186 121.772C105.105 121.772 121.952 104.925 121.952 84.0386C121.952 63.1521 105.105 46.305 84.2186 46.305ZM84.2186 108.57C70.7212 108.57 59.6868 97.5688 59.6868 84.0386C59.6868 70.5084 70.6884 59.5068 84.2186 59.5068C97.7488 59.5068 108.75 70.5084 108.75 84.0386C108.75 97.5688 97.716 108.57 84.2186 108.57V108.57ZM132.297 44.7615C132.297 49.6547 128.356 53.5627 123.496 53.5627C118.603 53.5627 114.694 49.6219 114.694 44.7615C114.694 39.9011 118.635 35.9603 123.496 35.9603C128.356 35.9603 132.297 39.9011 132.297 44.7615ZM157.288 53.6941C156.73 41.9044 154.037 31.4611 145.4 22.8569C136.796 14.2528 126.353 11.5598 114.563 10.9687C102.412 10.2791 65.9922 10.2791 53.8412 10.9687C42.0844 11.527 31.6411 14.2199 23.0041 22.8241C14.3671 31.4283 11.707 41.8715 11.1159 53.6612C10.4262 65.8122 10.4262 102.232 11.1159 114.383C11.6742 126.173 14.3671 136.616 23.0041 145.22C31.6411 153.824 42.0515 156.517 53.8412 157.108C65.9922 157.798 102.412 157.798 114.563 157.108C126.353 156.55 136.796 153.857 145.4 145.22C154.004 136.616 156.697 126.173 157.288 114.383C157.978 102.232 157.978 65.845 157.288 53.6941V53.6941ZM141.591 127.421C139.029 133.857 134.07 138.816 127.601 141.411C117.913 145.253 94.9246 144.366 84.2186 144.366C73.5126 144.366 50.4915 145.22 40.8364 141.411C34.3997 138.849 29.4408 133.89 26.8464 127.421C23.0041 117.733 23.8908 94.7446 23.8908 84.0386C23.8908 73.3326 23.0369 50.3115 26.8464 40.6564C29.408 34.2197 34.3669 29.2608 40.8364 26.6664C50.5243 22.8241 73.5126 23.7108 84.2186 23.7108C94.9246 23.7108 117.946 22.8569 127.601 26.6664C134.037 29.228 138.996 34.1869 141.591 40.6564C145.433 50.3443 144.546 73.3326 144.546 84.0386C144.546 94.7446 145.433 117.766 141.591 127.421Z"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="https://www.linkedin.com/">
+                                    <div class="icon-container">
+                                        <svg width="169" height="170" viewBox="0 0 169 170" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_95_81)">
+                                                <path
+                                                    d="M43.4984 148.057H12.9962V49.8309H43.4984V148.057ZM28.2309 36.432C18.4773 36.432 10.566 28.3533 10.566 18.5997C10.566 13.9147 12.4272 9.42153 15.74 6.10873C19.0528 2.79593 23.5459 0.934814 28.2309 0.934814C32.9159 0.934814 37.409 2.79593 40.7218 6.10873C44.0346 9.42153 45.8957 13.9147 45.8957 18.5997C45.8957 28.3533 37.9812 36.432 28.2309 36.432ZM157.658 148.057H127.222V100.241C127.222 88.8453 126.992 74.2313 111.363 74.2313C95.5045 74.2313 93.0743 86.6121 93.0743 99.4199V148.057H62.6049V49.8309H91.8592V63.2298H92.2861C96.3583 55.5123 106.306 47.3679 121.146 47.3679C152.016 47.3679 157.691 67.6961 157.691 94.0998V148.057H157.658Z"
+                                                    fill="black" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_95_81">
+                                                    <rect width="168.143" height="168.143" fill="white"
+                                                        transform="translate(0.0571289 0.931519)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="https://wa.me/918850416731">
+                                    <div class="icon-container">
+                                        <svg width="169" height="169" viewBox="0 0 169 169" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M135.598 31.888C121.838 18.095 103.513 10.5089 84.0386 10.5089C43.8419 10.5089 11.1329 43.2179 11.1329 83.4146C11.1329 96.2552 14.4826 108.8 20.8536 119.867L10.5089 157.634L49.1621 147.486C59.8024 153.299 71.7891 156.353 84.0057 156.353H84.0386C124.202 156.353 157.634 123.644 157.634 83.4474C157.634 63.9731 149.358 45.681 135.598 31.888V31.888ZM84.0386 144.071C73.1356 144.071 62.4624 141.148 53.1686 135.631L50.9683 134.317L28.0457 140.327L34.154 117.963L32.709 115.664C26.6335 106.009 23.448 94.8759 23.448 83.4146C23.448 50.0159 50.6399 22.8241 84.0714 22.8241C100.262 22.8241 115.467 29.1294 126.895 40.5907C138.324 52.052 145.352 67.2571 145.319 83.4474C145.319 116.879 117.437 144.071 84.0386 144.071V144.071ZM117.273 98.6854C115.467 97.7659 106.501 93.3652 104.827 92.7741C103.152 92.1501 101.937 91.8546 100.721 93.6936C99.5064 95.5327 96.0253 99.6049 94.9416 100.853C93.8907 102.068 92.807 102.232 91.0007 101.313C80.2948 95.9596 73.2669 91.7561 66.2062 79.638C64.3343 76.4196 68.0781 76.6495 71.5592 69.6873C72.1503 68.4722 71.8548 67.4213 71.395 66.5018C70.9352 65.5823 67.29 56.6168 65.7793 52.9716C64.3015 49.4248 62.7908 49.9174 61.6743 49.8517C60.6234 49.786 59.4083 49.786 58.1932 49.786C56.9781 49.786 55.0077 50.2458 53.3328 52.052C51.6579 53.8911 46.9618 58.2917 46.9618 67.2571C46.9618 76.2226 53.497 84.8924 54.3837 86.1075C55.3032 87.3226 67.2243 105.713 85.5164 113.628C97.0762 118.62 101.608 119.046 107.388 118.193C110.902 117.667 118.16 113.792 119.67 109.523C121.181 105.253 121.181 101.608 120.721 100.853C120.294 100.032 119.079 99.5721 117.273 98.6854Z"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+   
+    <main>
+        
+
+        <main class="blog-detail container">
+            <article>
+                <div class="blog-title ">
+                    <h1 class="text-black">Characteristics of big data</h1>
+                    <h2 class="text-grey">Several Characteristics... </h2>
+                </div>
+                <div class="blog-category">
+                    
+                    <h5 class="">all</h5>
+                    
+                    <h5 class=""> deployment</h5>
+                    
+                    <h5 class=""> static</h5>
+                    
+                    <h5 class=""> bigdata</h5>
+                    
+                    <h5 class=""> characteristics</h5>
+                    
+                </div>
+                <div class="blog-author d-flex hoverable">
+                    <div class="author-img">
+                        <b>Big Data Solutions</b>
+                    </div>
+                    <div class="author-name ml-2 text-black lead">
+                        <span class="text-muted">7 minutes</span>
+                    </div>
+    
+                </div>
+    
+                <div class="blog-timeline">
+                    <span class="text-black">Originally Published on: Mar. 5, 2023</span>
+                    <span class="text-black">Last Updated on: Apr. 20, 2023</span>
+                </div>
+    
+                <div class="blog-img">
+                    <img src="images/v.jpg" alt="How to serve static and media files in NGINX for your Django Project">
+                </div>
+    
+                <div class="share-icons d-flex">
+                    <span>IF YOUR FIND THIS ARTICLE HELPFUL THEN PLEASE SHARE IT ON: </span>
+                    <a href="https://wa.me/?text=Check out this article from WOLFx Digital Agency about How to serve static and media files in NGINX for your Django Project https://wolfx.io/how-to-serve-static-and-media-files-in-nginx"
+                        target="_blank">
+                        <i class="fab fa-whatsapp icon-3x text-success"></i>
+                    </a>
+                    <a href="http://www.facebook.com/sharer/sharer.php?u=https://wolfx.io/how-to-serve-static-and-media-files-in-nginx" target="_blank">
+                        <i class="fab fa-facebook icon-3x text-primary dark-50"></i>
+                    </a>
+                    <a href="https://twitter.com/intent/tweet?text=Check out this article from WOLFx Digital Agency about How to serve static and media files in NGINX for your Django Project https://wolfx.io/how-to-serve-static-and-media-files-in-nginx"
+                        target="_blank">
+                        <i class="fab fa-twitter icon-3x text-primary"></i>
+                    </a>
+                </div>
+    
+                <div class="blog-content ">
+                    <h1>Big data overview</h1>
+    
+    <h3>Introduction</h3>
+    <p>
+        <u>Characteristics of big data</u>
+        <br>
+        Big data is different from typical data assets because of its volume complexity and need for advanced business intelligence tools to process and analyze it. The attributes that define big data are volume, variety, velocity, and variability. These big data attributes are commonly referred to as the four v’s.
+        <br>           
+        <u>Volume</u>
+        <br>
+        The key characteristic of big data is its scale—the volume of data that is available for collection by your enterprise from a variety of devices and sources.
+        <br>
+        <u>Variety</u>
+        <br>
+        Variety refers to the formats that data comes in, such as email messages, audio files, videos, sensor data, and more. Classifications of big data variety include structured, semi-structured, and unstructured data.
+        <br>       
+        <u>Velocity</u>
+        <br>
+        Big data velocity refers to the speed at which large datasets are acquired, processed, and accessed.
+        <br>
+        <u>Variability</u>
+        <br>
+        Big data variability means the meaning of the data constantly changes. Therefore, before big data can be analyzed, the context and meaning of the datasets must be properly understood.
+        <br> 
+        <br> 
+                </p>
+    
+    <hr />
+    <!-- <h3>Step 1: Activate your virtual environment.</h3>
+    
+    <p>1. <code>source &lt;path_to_your_virtual_environment&gt;/env/bin/activate</code></p>
+    
+    <hr />
+    <h3>Step 2: Run <code>collectstatic</code> from your project directory.</h3>
+    
+    <p>1. <code>cd /&lt;your_project_directory_path&gt;</code></p>
+    
+    <p>2. <code>python manage.py collectstatic</code></p>
+    
+    <p>Once you complete the above steps your project directory will have a new folder created whose name will be similar to what you have provided in your settings.py file for STATIC_ROOT and MEDIA_ROOT value. Follow our <a href="https://wolfx.io/how-to-upload-django-app-on-aws" target="_blank">Django&nbsp;Deployment</a> article if you don&#39;t know how to do a basic Django deployment on a VPS. In our case, it is like this:</p>
+    
+    <p>&nbsp;</p>
+    
+    <pre>
+    <code>STATIC_URL = &#39;/static/&#39;
+    STATICFILES_DIRS = [
+    &nbsp; &nbsp; os.path.join(BASE_DIR, &#39;web/static&#39;),
+    ]
+    STATIC_ROOT = &nbsp;os.path.join(BASE_DIR, &#39;static&#39;)
+    MEDIA_URL = &#39;/media/&#39;
+    MEDIA_ROOT = os.path.join(BASE_DIR, &#39;media&#39;)</code></pre>
+    
+    <p>&nbsp;</p>
+    
+    <p>So by running collectstatic command on our Django project based on these&nbsp;settings will create a directory named &quot;<strong>static&quot;</strong> and &quot;<strong>media&quot;</strong>.</p>
+    
+    <hr />
+    <h3>Step 3: Access your NGINX webserver&#39;s config files.</h3>
+    
+    <p>1. <code>sudo nano /etc/nginx/sites-enabled/&lt;your_config_file_name&gt;.conf</code></p>
+    
+    <hr />
+    <h3>Step 4: Add a location in your config file.</h3>
+    
+    <p>&nbsp;</p>
+    
+    <pre>
+    <code>location /static/{
+    &nbsp;&nbsp;&nbsp;&nbsp;autoindex on;
+    &nbsp;&nbsp;&nbsp;&nbsp;alias /&lt;your_path_to the_static_folder&gt;/;
+    }</code></pre>
+    
+    <p>&nbsp;</p>
+    
+    <p>&nbsp;</p>
+    
+    <pre>
+    <code>location /media/{
+    &nbsp;&nbsp;&nbsp;&nbsp;autoindex on;
+    &nbsp;&nbsp;&nbsp;&nbsp;alias /&lt;your_path_to the_media_folder&gt;/;
+    }</code></pre>
+    
+    <p>&nbsp;</p>
+    
+    <hr />
+    <h3>Step 5: Reload your NGINX server and it&#39;s done.</h3>
+    
+    <p>1. <code>sudo systemctl reload nginx</code></p>
+    
+    <hr />
+    <h3>Conclusion</h3>
+    
+    <p>Hope you found this article helpful, please do share it on your social media, it will allow us to reach out to more people who are in need for help.</p>
+     -->              
+</div>   
+            </article>
+        </main>
+
+
+<style>
+    canvas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -2;
+    }
+</style>
+
+
+<!-- Canvas BG -->
+<canvas id="canvas"></canvas>
+<script src="/static/js/main.js" defer></script>
+
+
+<!-- Slick -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Tilt JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.0.3/tilt.jquery.min.js"
+    integrity="sha512-14AZ/DxUrlF26z6v7egDkpJHKyJRn/7ue2BgpWZ/fmqrqVzf4PrQnToy99sHmKwzKev/VZ1tjPxusuTV/n8CcQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+
+<script>
+    $(document).ready(function () {
+        
+        // // Banner
+        // var mousePointer = document.getElementsByClassName('mouse-moveable')
+
+        // document.addEventListener('mousemove', function (e) {
+        //     var x = e.pageY / window.innerHeight;
+        //     x = x * -20;
+
+        //     mousePointer[0].style.transform = 'translateY(' + x + '%)'
+        // })
+
+        // Service Tilt
+        $('.js-tilt').tilt({
+            maxTilt: 20,
+            perspective: 1400,
+            // easing: "cubic-bezier(.03,.98,.52,.99)",
+            speed: 0,
+            glare: true,
+            maxGlare: 0.2,
+        })
+
+        $('.client-slider').slick({
+            infinite: true,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            responsive: [
+                {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                    }
+                },
+            ]
+        });
+
+        $('.review-slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dost: true
+        })
+
+        var tl = new TimelineMax({ repeat: -1, repeatDelay: 5 });
+
+        // FAQ
+        const accItems = document.querySelectorAll(".accordion__item");
+        accItems.forEach((acc) => acc.addEventListener("click", toggleAcc));
+        function toggleAcc() {
+            // remove active class from all items exept the current item (this)
+            // accItems.forEach((item) => item != this ? item.classList.remove("accordion__item--active") : null
+
+            // toggle active class on current item
+            if (this.classList != "accordion__item--active") {
+                this.classList.toggle("accordion__item--active");
+            }
+        }
+
+    })
+
+</script>
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container container">
+            <div class="left">
+                <ul>
+                    <div class="title">
+                        Connect
+                    </div>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="https://www.facebook.com">
+                        <li>Facebook</li>
+                    </a>
+                    <a href="https://www.linkedin.com">
+                        <li>Linkedin</li>
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <li>Instagram</li>
+                    </a>
+                </ul>
+                <ul>
+                    <div class="title">
+                        Company
+                    </div>
+                    <a href="#">
+                        <li>About Us </li>
+                    </a>
+                    <a href="#">
+                        <li>Convert your website into mobile web app</li>
+                    </a>
+                    <a href="#">
+                        <li>Data Analytics</li>
+                    </a>
+                </ul>
+                <ul>
+                    <div class="title">
+                        Services
+                    </div>
+                    <a href="#">
+                        <li>UI/UX </li>
+                    </a>
+                    <a href="#">
+                        <li>Big Data Solutions</li>
+                    </a>
+                    <a href="#">
+                        <li>Website Development</li>
+                    </a>
+                    <a href="#">
+                        <li>Mobile App Development</li>
+                    </a>
+                    
+                </ul>
+                <ul>
+                    <div class="title">
+                        Get help
+                    </div>
+                   
+                    
+                    <a href="#">
+                        <li>Privacy Policy</li>
+                    </a>
+                  
+                  
+                </ul>
+            </div>
+            <div class="right">
+                <form action="/contact-us/#form">
+                    <div class="title">
+                        Let's get connected!
+                    </div>
+                    <div class="form-group-container">
+                        <div class="form-group">
+                            <input type="email" name="email_id" placeholder="Enter your Email Address">
+                            <input type="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="copy-right container">
+            <div class="left">
+                <div class="p-0">
+                    <b style="font-size: large;">Big Data Solutions</b>
+                </div>
+                <div class="tag-line">
+                    Everything digital is our playground
+                    <br>
+                   <b>  ©2022-23 </b> <b style="color:darkblue">Big Data Solutions </b> All Rights Reserved
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <a href="">
+                        <div class="icon-container">
+                            <svg width="169" height="169" viewBox="0 0 169 169" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M165.659 84.0715C165.659 39.0801 129.206 2.62726 84.2145 2.62726C39.2231 2.62726 2.77026 39.0801 2.77026 84.0715C2.77026 124.721 32.5532 158.416 71.4888 164.53V107.615H50.7994V84.0715H71.4888V66.1275C71.4888 45.7171 83.6398 34.443 102.25 34.443C111.163 34.443 120.483 36.0325 120.483 36.0325V56.0652H110.211C100.096 56.0652 96.9401 62.3442 96.9401 68.7842V84.0715H119.528L115.915 107.615H96.9401V164.53C135.876 158.416 165.659 124.721 165.659 84.0715Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="">
+
+                        <div class="icon-container">
+                            <svg width="169" height="169" viewBox="0 0 169 169" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M84.2186 46.305C63.3321 46.305 46.485 63.1521 46.485 84.0386C46.485 104.925 63.3321 121.772 84.2186 121.772C105.105 121.772 121.952 104.925 121.952 84.0386C121.952 63.1521 105.105 46.305 84.2186 46.305ZM84.2186 108.57C70.7212 108.57 59.6868 97.5688 59.6868 84.0386C59.6868 70.5084 70.6884 59.5068 84.2186 59.5068C97.7488 59.5068 108.75 70.5084 108.75 84.0386C108.75 97.5688 97.716 108.57 84.2186 108.57V108.57ZM132.297 44.7615C132.297 49.6547 128.356 53.5627 123.496 53.5627C118.603 53.5627 114.694 49.6219 114.694 44.7615C114.694 39.9011 118.635 35.9603 123.496 35.9603C128.356 35.9603 132.297 39.9011 132.297 44.7615ZM157.288 53.6941C156.73 41.9044 154.037 31.4611 145.4 22.8569C136.796 14.2528 126.353 11.5598 114.563 10.9687C102.412 10.2791 65.9922 10.2791 53.8412 10.9687C42.0844 11.527 31.6411 14.2199 23.0041 22.8241C14.3671 31.4283 11.707 41.8715 11.1159 53.6612C10.4262 65.8122 10.4262 102.232 11.1159 114.383C11.6742 126.173 14.3671 136.616 23.0041 145.22C31.6411 153.824 42.0515 156.517 53.8412 157.108C65.9922 157.798 102.412 157.798 114.563 157.108C126.353 156.55 136.796 153.857 145.4 145.22C154.004 136.616 156.697 126.173 157.288 114.383C157.978 102.232 157.978 65.845 157.288 53.6941V53.6941ZM141.591 127.421C139.029 133.857 134.07 138.816 127.601 141.411C117.913 145.253 94.9246 144.366 84.2186 144.366C73.5126 144.366 50.4915 145.22 40.8364 141.411C34.3997 138.849 29.4408 133.89 26.8464 127.421C23.0041 117.733 23.8908 94.7446 23.8908 84.0386C23.8908 73.3326 23.0369 50.3115 26.8464 40.6564C29.408 34.2197 34.3669 29.2608 40.8364 26.6664C50.5243 22.8241 73.5126 23.7108 84.2186 23.7108C94.9246 23.7108 117.946 22.8569 127.601 26.6664C134.037 29.228 138.996 34.1869 141.591 40.6564C145.433 50.3443 144.546 73.3326 144.546 84.0386C144.546 94.7446 145.433 117.766 141.591 127.421Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="">
+
+                        <div class="icon-container">
+                            <svg width="169" height="170" viewBox="0 0 169 170" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_95_81)">
+                                    <path
+                                        d="M43.4984 148.057H12.9962V49.8309H43.4984V148.057ZM28.2309 36.432C18.4773 36.432 10.566 28.3533 10.566 18.5997C10.566 13.9147 12.4272 9.42153 15.74 6.10873C19.0528 2.79593 23.5459 0.934814 28.2309 0.934814C32.9159 0.934814 37.409 2.79593 40.7218 6.10873C44.0346 9.42153 45.8957 13.9147 45.8957 18.5997C45.8957 28.3533 37.9812 36.432 28.2309 36.432ZM157.658 148.057H127.222V100.241C127.222 88.8453 126.992 74.2313 111.363 74.2313C95.5045 74.2313 93.0743 86.6121 93.0743 99.4199V148.057H62.6049V49.8309H91.8592V63.2298H92.2861C96.3583 55.5123 106.306 47.3679 121.146 47.3679C152.016 47.3679 157.691 67.6961 157.691 94.0998V148.057H157.658Z"
+                                        fill="black" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_95_81">
+                                        <rect width="168.143" height="168.143" fill="white"
+                                            transform="translate(0.0571289 0.931519)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="">
+
+                        <div class="icon-container">
+                            <svg width="169" height="169" viewBox="0 0 169 169" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M135.598 31.888C121.838 18.095 103.513 10.5089 84.0386 10.5089C43.8419 10.5089 11.1329 43.2179 11.1329 83.4146C11.1329 96.2552 14.4826 108.8 20.8536 119.867L10.5089 157.634L49.1621 147.486C59.8024 153.299 71.7891 156.353 84.0057 156.353H84.0386C124.202 156.353 157.634 123.644 157.634 83.4474C157.634 63.9731 149.358 45.681 135.598 31.888V31.888ZM84.0386 144.071C73.1356 144.071 62.4624 141.148 53.1686 135.631L50.9683 134.317L28.0457 140.327L34.154 117.963L32.709 115.664C26.6335 106.009 23.448 94.8759 23.448 83.4146C23.448 50.0159 50.6399 22.8241 84.0714 22.8241C100.262 22.8241 115.467 29.1294 126.895 40.5907C138.324 52.052 145.352 67.2571 145.319 83.4474C145.319 116.879 117.437 144.071 84.0386 144.071V144.071ZM117.273 98.6854C115.467 97.7659 106.501 93.3652 104.827 92.7741C103.152 92.1501 101.937 91.8546 100.721 93.6936C99.5064 95.5327 96.0253 99.6049 94.9416 100.853C93.8907 102.068 92.807 102.232 91.0007 101.313C80.2948 95.9596 73.2669 91.7561 66.2062 79.638C64.3343 76.4196 68.0781 76.6495 71.5592 69.6873C72.1503 68.4722 71.8548 67.4213 71.395 66.5018C70.9352 65.5823 67.29 56.6168 65.7793 52.9716C64.3015 49.4248 62.7908 49.9174 61.6743 49.8517C60.6234 49.786 59.4083 49.786 58.1932 49.786C56.9781 49.786 55.0077 50.2458 53.3328 52.052C51.6579 53.8911 46.9618 58.2917 46.9618 67.2571C46.9618 76.2226 53.497 84.8924 54.3837 86.1075C55.3032 87.3226 67.2243 105.713 85.5164 113.628C97.0762 118.62 101.608 119.046 107.388 118.193C110.902 117.667 118.16 113.792 119.67 109.523C121.181 105.253 121.181 101.608 120.721 100.853C120.294 100.032 119.079 99.5721 117.273 98.6854Z"
+                                    fill="black" />
+                            </svg>
+
+                        </div>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+ 
+    
+    <script>
+        // Menu Dropdown
+        $('.dropdown').on('mouseenter', function () {
+            TweenMax.from('.dropdown-content', { opacity: 0, y: 10 })
+            TweenMax.to('.dropdown-content', { display: 'flex', opacity: 1, y: 0, ease: Power3.easeOut })
+        })
+        $('.dropdown').on('mouseleave', function () {
+            TweenMax.to('.dropdown-content', { display: 'none', opacity: 0, y: 10 })
+        })
+
+        // MobileMenu Dropdown
+        $('.mobile-dropdown').on('click', function () {
+            $('.mobile-dropdown-content').toggle()
+        })
+
+        $('.plates').on('click', function () {
+            $(this).toggleClass('active')
+            $('.plate').toggleClass('active')
+            $('.mobile-nav-container').toggleClass('mobile-nav-container-active')
+            $('.over-lay').toggleClass('over-lay-active')
+            $('body').toggleClass('over-lay-active')
+        })
+
+        function resize() {
+            $('main').css('margin-top', $('header').height() + "px")
+        }
+        $(window).resize(function () {
+            resize()
+        })
+        $(document).ready(function () {
+            resize()
+        });
+    </script>
+
+</body>
+
+</html>
