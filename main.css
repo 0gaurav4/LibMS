@@ -228,6 +228,10 @@ ul ol {
   }
 }
 
+.service-card {
+  height: 400px;
+}
+
 .mb-0 {
   margin-bottom: 0vw !important;
 }
