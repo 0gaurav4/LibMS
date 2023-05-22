@@ -1,6 +1,6 @@
 # BigDataS
  Guide
- https://0gaurav4.github.io/BigDataS/
+https://0gaurav4.github.io/Bigdatasolution/
  
 https://www.canva.com/design/DAFhOSOLNTA/S1QIoI-oCUFxHa-TE46APg/edit
 
