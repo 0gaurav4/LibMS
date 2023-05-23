@@ -1893,4 +1893,25 @@ legend + * {
   padding: 2px 5px;
   font-weight: bold;
 }
+
+.button1 {
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.button1:hover {
+  background-color: #a8dbab;
+}
+
+
 /*# sourceMappingURL=main.css.map */
