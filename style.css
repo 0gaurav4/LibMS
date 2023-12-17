@@ -1465,6 +1465,8 @@ form input[type=submit] {
   width: fit-content;
   cursor: pointer;
   font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.025rem;
 }
 
 @media screen and (min-width: 0px) and (max-width: 800px) {

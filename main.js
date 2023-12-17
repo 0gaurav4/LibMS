@@ -1136,6 +1136,9 @@
 
             return hash;
         }
+        function mpay(){
+            PaymentResponse;
+        }
     };
     
 
