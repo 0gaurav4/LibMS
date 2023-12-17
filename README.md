@@ -13,6 +13,6 @@ Vender Panel:
 3. Take notification of need and profit by emails.
 
 User Panel:
-1. Select products of different vENDERs.
+1. Select products of different VENDERs.
 2. Add/Update their request forms.
 3. Take notification of deivery and payment by emails.
